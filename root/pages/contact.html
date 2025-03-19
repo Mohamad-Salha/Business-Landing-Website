@@ -2,9 +2,69 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/contact.css">
 </head>
 <body>
+<header>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="../pages/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div id="contact-us">
+        <h1>CONTACT US</h1>
+    </div>
+</header>
 
+<div class="form-container">
+    <div class="contact-information">
+        <h2>
+            Contact Details
+        </h2>
+        <h3>
+            contact@kochi.com
+        </h3>
+        <h3>
+            (555) 555-5555
+        </h3>
+        <h2>
+            central HQ
+        </h2>
+        <h3>
+            123 Avenue Street
+        </h3>
+        <h3>
+            City Township , CA 12345
+        </h3>
+    </div>
+    <form action="#" method="POST">
+        <h2>Contact Us</h2>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="e.g John Smith" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="e.g name@Domain.tld" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
+
+        <div class="buttons">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+</div>
+<footer>
+    <small>&copy; 2025 Kochi Inc. Developed by Eric Kovalevskyy.</small>
+</footer>
 </body>
 </html>
